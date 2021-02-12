@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+
 body {
   padding: 0;
   margin: 0;
+  font-family: "Handlee", cursive;
 }
 
 main {
@@ -11,22 +14,41 @@ main {
   align-items: center;
   justify-content: center;
 }
+@media screen and (min-width: 768px) {
+  .glass {
+    background: white;
+    min-height: 90vh;
+    width: 70%;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 2rem;
+    z-index: 2;
 
-.glass {
-  background: white;
-  min-height: 80vh;
-  width: 70%;
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
-  border-radius: 2rem;
-  z-index: 2;
-  backdrop-filter: blur(2rem);
-  display: flex;
+    display: flex;
+  }
 }
-
+/* .glass::before {
+  filter: blur(500px);
+} */
+@media screen and (max-width: 767px) {
+  .glass {
+    background: white;
+    min-height: 90vh;
+    width: 100vw;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+  }
+}
 .circle1,
 .circle2 {
   background: white;
@@ -65,9 +87,8 @@ main {
 .content {
   /* border: 2px solid blue; */
   flex: 4;
-    /* display: flex;
+  /* display: flex;
   align-items: center; */
-
 }
 
 .link {
@@ -94,7 +115,6 @@ main {
 }
 
 .text {
-  
 }
 
 .projects {
@@ -104,19 +124,25 @@ main {
   grid-column-gap: 10px;
   grid-row-gap: 0px;
   margin-top: 5rem;
-  
- 
 }
 
 .project {
   border: 1px solid black;
   height: calc(30vh);
-  
-  
+  border-radius: 4px;
 }
 
 .proj-img {
   height: 100%;
   width: 100%;
   cursor: pointer;
+  border-radius: 4px;
 }
+
+.social-icons {
+  position: absolute;
+  bottom: 2rem;
+  margin-left: 1rem;
+}
+
+

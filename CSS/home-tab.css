@@ -1,0 +1,11 @@
+.home-tab {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.home-tab > p {
+  margin-top: 2rem;
+}
+.developer-img {
+  width: 55%;
+}

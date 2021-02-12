@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/3b51721038.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/home-tab.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section class="glass">
+        <div class="nav">
+          <div class="links">
+            <div class="link">
+              <div class="tablink" onclick="display(event, 'home')">Home</div>
+            </div>
+            <div class="link">
+              <div class="tablink" onclick="display(event, 'projects')">
+                Projects
+              </div>
+            </div>
+            <div class="link">
+              <div class="tablink" onclick="display(event, 'contact')">
+                Contact
+              </div>
+            </div>
+          </div>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/levdanneman/" target="_blank">
+              <i class="fab fa-linkedin fa-2x" style="color: #0072b1"></i
+            ></a>
+            <a href="https://github.com/ldanneman" target="_blank">
+              <i class="fab fa-github fa-2x" style="color: black"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="content">
+          <!-- home tab-->
+          <div id="home" class="home-tab text">
+            <p>Hi my name is Lev! I am a fullstack developer.</p>
+            <div class="developer-div">
+              <img class="developer-img" src="../IMAGES/developer.png" />
+            </div>
+          </div>
+
+          <!-- projects tab-->
+          <div id="projects" class="display-none text">
+            <div class="projects">
+              <div class="project">
+                <a
+                  href="https://pet-adoption-inc.herokuapp.com/"
+                  target="_blank"
+                >
+                  <img class="proj-img" src="../IMAGES/petsproj.png" />
+                </a>
+                <div>Pet Adoption Project</div>
+              </div>
+              <div class="project">
+                <a
+                  href="https://sticky-note-pinboard.netlify.app/"
+                  target="_blank"
+                >
+                  <img class="proj-img" src="../IMAGES/stickynote.jpg" />
+                </a>
+                <div>Sticky Note Pinboard</div>
+              </div>
+              <div class="project">
+                <a
+                  href="https://healthcare-schedule-app.netlify.app/"
+                  target="_blank"
+                >
+                  <img class="proj-img" src="../IMAGES/shift.jpg" />
+                </a>
+                <div>Hackathon Doctors App</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Tab -->
+
+          <div id="contact" class="display-none text">
+            <div>
+              <form>
+              <label class="formLabel" for="fname">First Name<span>*</span></label>
+              <input class="inputValues" type="text" id="fname" name="First Name" placeholder="First Name" required><br>
+              <label class="formLabel" for="lname">Last Name</label>
+              <input class="inputValues" type="text" id="lname" name="Last Name" placeholder="Last Name" required><br>
+              <label class="formLabel" for="email">Email<span>*</span></label>
+              <input class="inputValues" type="email" id="email" name="Email" placeholder="abc@client.com" required><br>
+              <label class="formLabel" for="phone">Phone<span>*</span></label>
+              <input class="inputValues" type="tel" id="phone" name="Phone" placeholder="111-222-3333"><br>
+              <label class="formLabel" for="Email">Comments<span>*</span></label>
+              <textarea class="inputValues" id="email" name="email"  placeholder="Email" required></textarea><br>
+                 
+              <button class="submit" type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- <div class="circle1"></div>
+   <div class="circle2"></div> -->
+    <script src="../JS/script.js"></script>
+  </body>
+</html>
