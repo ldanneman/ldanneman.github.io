@@ -7,13 +7,18 @@ body {
 }
 
 main {
-  min-height: 100vh;
-  /* background: linear-gradient(to right top, #65dfc9, #6cd); */
-  background: linear-gradient(to right top, #0052eb, #0cd9f6);
+  height: 100vh;
+  /* min-height: 100vh; */
+  /* background: linear-gradient(to right top, #0052eb, #0cd9f6); */
+  background-image: url("../IMAGES/Vail-Valley.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 @media screen and (min-width: 768px) {
   .glass {
     background: white;
@@ -25,7 +30,7 @@ main {
       rgba(255, 255, 255, 0.3)
     );
     border-radius: 2rem;
-    z-index: 2;
+    z-index: 99;
 
     display: flex;
   }
@@ -144,5 +149,3 @@ main {
   bottom: 2rem;
   margin-left: 1rem;
 }
-
-

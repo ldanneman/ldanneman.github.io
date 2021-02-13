@@ -9,6 +9,7 @@
     ></script>
     <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="stylesheet" href="./CSS/home-tab.css" />
+     <link rel="stylesheet" href="./CSS/contact-tab.css" />
     <title>Document</title>
   </head>
   <body>
@@ -54,7 +55,7 @@
             <div class="projects">
               <div class="project">
                 <a
-                  href="https://pet-adoption-inc.herokuapp.com/"
+                  href="./HTML/projects.html?pet-adoption-project"
                   target="_blank"
                 >
                   <img class="proj-img" src="./IMAGES/petsproj.png" />
@@ -62,8 +63,8 @@
                 <div>Pet Adoption Project</div>
               </div>
               <div class="project">
-                <a
-                  href="https://sticky-note-pinboard.netlify.app/"
+                 <a
+                  href="./HTML/projects.html?sticky-note-project"
                   target="_blank"
                 >
                   <img class="proj-img" src="./IMAGES/stickynote.jpg" />
@@ -72,7 +73,7 @@
               </div>
               <div class="project">
                 <a
-                  href="https://healthcare-schedule-app.netlify.app/"
+                  href="./HTML/projects.html?hackathon-project"
                   target="_blank"
                 >
                   <img class="proj-img" src="./IMAGES/shift.jpg" />
@@ -87,26 +88,26 @@
           <div id="contact" class="display-none text">
             <div>
               <form>
-              <label class="formLabel" for="fname">First Name<span>*</span></label>
-              <input class="inputValues" type="text" id="fname" name="First Name" placeholder="First Name" required><br>
-              <label class="formLabel" for="lname">Last Name</label>
-              <input class="inputValues" type="text" id="lname" name="Last Name" placeholder="Last Name" required><br>
-              <label class="formLabel" for="email">Email<span>*</span></label>
-              <input class="inputValues" type="email" id="email" name="Email" placeholder="abc@client.com" required><br>
-              <label class="formLabel" for="phone">Phone<span>*</span></label>
+              <label class="formLabel" for="name">Name</label>
+              <input class="inputValues" type="text" id="name" name="Name" placeholder="Name"><br>
+              <label class="formLabel" for="email">Email</label>
+              <input class="inputValues" type="email" id="email" name="Email" placeholder="abc@client.com"><br>
+              <label class="formLabel" for="phone">Phone</label>
               <input class="inputValues" type="tel" id="phone" name="Phone" placeholder="111-222-3333"><br>
-              <label class="formLabel" for="Email">Comments<span>*</span></label>
-              <textarea class="inputValues" id="email" name="email"  placeholder="Email" required></textarea><br>
+              <label class="formLabel" for="Email">Comments</label>
+              <textarea class="inputValues" id="email" name="email"  placeholder="Email"></textarea><br>
                  
-              <button class="submit" type="submit">Submit</button>
+              <button class="submit" type="button">Submit</button>
+
               </form>
             </div>
           </div>
-        </div>
       </section>
+      </div>
     </main>
     <!-- <div class="circle1"></div>
    <div class="circle2"></div> -->
     <script src="./JS/script.js"></script>
-  </body>
+    <script src="./JS/contact.js"></script>
+    </body>
 </html>
