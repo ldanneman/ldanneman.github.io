@@ -91,10 +91,8 @@ main {
   position: relative;
 }
 .content {
-  /* border: 2px solid blue; */
   flex: 4;
-  /* display: flex;
-  align-items: center; */
+  margin: 1rem 0 0 1rem;
 }
 
 .link {
@@ -113,7 +111,7 @@ main {
   display: block;
 }
 .highlight {
-  background-color: yellow;
+  background-color: rgba(255, 242, 0, 0.5);
   border-radius: 1rem;
 }
 .tablink {
@@ -125,10 +123,10 @@ main {
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 0px;
+  grid-column-gap: 4rem;
+  grid-row-gap: 2rem;
   margin-top: 5rem;
 }
 
@@ -136,6 +134,9 @@ main {
   border: 1px solid black;
   height: calc(30vh);
   border-radius: 4px;
+  text-align: center;
+  color: blue;
+  font-weight: bold;
 }
 
 .proj-img {

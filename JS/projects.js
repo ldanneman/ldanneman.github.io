@@ -1,3 +1,7 @@
+import { petAdoptionText } from "./text.js";
+
+console.log(petAdoptionText);
+
 const projectPage = document.querySelector("#project-root");
 const icon = document.querySelector("#icon");
 
@@ -7,7 +11,7 @@ console.log(queryString);
 const petAdoption = () => {
   icon.href = "../IMAGES/petsproj.png";
   icon.type = "image/png";
-  projectPage.innerHTML = "Pet Adoption";
+  projectPage.innerHTML = petAdoptionText;
 };
 
 const stickyNote = () => {
