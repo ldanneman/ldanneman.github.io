@@ -2,6 +2,8 @@ label {
   float: left;
   text-align: left;
   width: 7rem;
+  color: black;
+  font-weight: bold;
 }
 
 input {
@@ -44,5 +46,3 @@ textarea {
 form {
   display: inline-block;
 }
-
-

@@ -1,7 +1,3 @@
-// document.getElementById("demo").onclick = function () {
-//   myFunction();
-// };
-
 const display = (e, link) => {
   let tabLink = document.querySelectorAll(".tablink");
   for (let i = 0; i < tabLink.length; i++) {
@@ -16,7 +12,3 @@ const display = (e, link) => {
   e.currentTarget.classList.add("highlight");
 };
 
-// export const variable = () => {
-//  let x = 0;
-// }
-// export let x = 0;
