@@ -1,12 +1,9 @@
 import { petAdoptionText, stickyNoteText, hackathonText } from "./text.js";
 
-console.log(petAdoptionText);
-
 const projectPage = document.querySelector("#project-root");
 const icon = document.querySelector("#icon");
 
 const queryString = location.search.substring(1);
-console.log(queryString);
 
 const petAdoption = () => {
   icon.href = "../IMAGES/petsproj.png";
