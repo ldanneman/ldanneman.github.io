@@ -80,6 +80,24 @@ body {
 .saved-pet {
   background-image: url("../IMAGES/Projects/saved-pet.PNG");
 }
+.sticky-note {
+  background-image: url("../IMAGES/projects/sticky-notes.PNG");
+}
+.sn-user-note {
+  background-image: url("../IMAGES//Projects/user-note.PNG");
+}
+.sn-modal {
+  background-image: url("../IMAGES//Projects/pinboard-modal.PNG");
+}
+.sn-code1 {
+  background-image: url("../IMAGES/Projects/sn.code1.PNG");
+}
+.sn-code2 {
+  background-image: url("../IMAGES/Projects/sn.code2.PNG");
+}
+.sn-code3 {
+  background-image: url("../IMAGES/Projects/sn.code3.PNG");
+}
 
 .grid-container {
   display: grid;
@@ -117,7 +135,6 @@ body {
   text-align: center;
   padding: 20px 0;
   font-size: 1rem;
-  border: 2px solid yellow;
 }
 
 .button {

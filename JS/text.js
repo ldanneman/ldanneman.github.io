@@ -47,20 +47,37 @@ let petAdoptionText = `
 let stickyNoteText = `
 <div>
     <div class="grid-container">
-        <div class="header"></div>
-        <div class="button-grid"><a class="button" href="https://pet-adoption-inc.herokuapp.com/" target="_blank">Go to Site</a></div>
-        <div class="img-1 pet-adoption-pic bgi"></div>
-        <div class="disc-1"></div>  
-        <div class="disc-2"></div>
-        <div class="img-2 bgi"></div>
-        <div class="img-3 bgi"></div>
-        <div class="disc-3"></div>
-        <div class="disc-4"></div>
-        <div class="img-4 bgi"></div>
-        <div class="img-5 bgi"></div>
-        <div class="disc-5"></div>
-        <div class="disc-6"></div>
-        <div class="img-6 bgi"></div>
+        <div class="header">
+            This project was created using React. It is a simple yet elegant CRUD(Create, Read, Update & Delete) application.
+
+        </div>
+        <div class="button-grid"><a class="button" href="https://sticky-note-pinboard.netlify.app/" target="_blank">Go to Site</a></div>
+        <div class="img-1 sticky-note bgi"></div>
+        <div class="disc-1">
+            The design of the project was inspired to look like a cork board with pinned notes. 
+        </div>  
+        <div class="disc-2">
+            The user has a terminal to the left of the pinboard with which he can add a title and note text to the 
+            board
+        </div>
+        <div class="img-2 sn-user-note bgi"></div>
+        <div class="img-3 sn-modal bgi"></div>
+        <div class="disc-3">
+            The user is able to click on the note and update the content of the note through a modal. Additionally, 
+            the user is able to delete a note with the trash icon on the bottom left of the note.
+        </div>
+        <div class="disc-4">
+            This project was made using React Classes. 
+        </div>
+        <div class="img-4 sn-code1 bgi"></div>
+        <div class="img-5 sn-code2 bgi"></div>
+        <div class="disc-5">
+            Each note is its own individual React Component
+        </div>
+        <div class="disc-6">
+            A separate Component is responsible for mapping through the item state. 
+        </div>
+        <div class="img-6 sn-code3 bgi"></div>
     </div>
 </div>
 `;
