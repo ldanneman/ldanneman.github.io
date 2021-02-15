@@ -103,4 +103,25 @@ let hackathonText = `
 </div>
 `;
 
+let Text = `
+<div>
+    <div class="grid-container">
+        <div class="header"></div>
+        <div class="button-grid"><a class="button" href="https://pet-adoption-inc.herokuapp.com/" target="_blank">Go to Site</a></div>
+        <div class="img-1 pet-adoption-pic bgi"></div>
+        <div class="disc-1"></div>  
+        <div class="disc-2"></div>
+        <div class="img-2 bgi"></div>
+        <div class="img-3 bgi"></div>
+        <div class="disc-3"></div>
+        <div class="disc-4"></div>
+        <div class="img-4 bgi"></div>
+        <div class="img-5 bgi"></div>
+        <div class="disc-5"></div>
+        <div class="disc-6"></div>
+        <div class="img-6 bgi"></div>
+    </div>
+</div>
+`;
+
 export { petAdoptionText, stickyNoteText, hackathonText };
