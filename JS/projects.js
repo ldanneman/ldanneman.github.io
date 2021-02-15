@@ -1,4 +1,4 @@
-import { petAdoptionText } from "./text.js";
+import { petAdoptionText, stickyNoteText, hackathonText } from "./text.js";
 
 console.log(petAdoptionText);
 
@@ -17,13 +17,13 @@ const petAdoption = () => {
 const stickyNote = () => {
   icon.href = "../IMAGES/stickynote.jpg";
   icon.type = "image/gif";
-  projectPage.innerHTML = "Sticky Note";
+  projectPage.innerHTML = stickyNoteText;
 };
 
 const hackathon = () => {
   icon.href = "../IMAGES/shift.jpg";
   icon.type = "image/gif";
-  projectPage.innerHTML = "Hackathon";
+  projectPage.innerHTML = hackathonText;
 };
 
 switch (queryString) {
@@ -37,8 +37,6 @@ switch (queryString) {
     hackathon();
     break;
 }
-
-
 
 // document.querySelector(".petProj-button").addEventListener("click", function (e) {
 

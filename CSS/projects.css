@@ -27,7 +27,6 @@ body {
 }
 .item2 {
   grid-area: img-1;
-  /* background-position: center; */
 }
 .item3 {
   grid-area: disc-1;
@@ -62,8 +61,48 @@ body {
 .item12 {
   grid-area: img-6;
 }
-.item13 {
-  grid-area: footer;
+
+.header {
+  grid-area: header;
+}
+.button {
+  grid-area: button;
+}
+.img-1 {
+  grid-area: img-1;
+}
+.disc-1 {
+  grid-area: disc-1;
+}
+.disc-2 {
+  grid-area: disc-2;
+}
+.img-2 {
+  grid-area: img-2;
+}
+.img-3 {
+  grid-area: img-3;
+}
+.disc-3 {
+  grid-area: disc-3;
+}
+.disc-4 {
+  grid-area: disc-4;
+}
+.img-4 {
+  grid-area: img-4;
+}
+.disc-5 {
+  grid-area: disc-5;
+}
+.img-5 {
+  grid-area: img-5;
+}
+.disc-6 {
+  grid-area: disc-6;
+}
+.img-6 {
+  grid-area: img-6;
 }
 
 .pet-adoption-pic {
@@ -78,19 +117,19 @@ body {
 .admin-dashboard {
   background-image: url("../IMAGES//Projects/admin-dashboard.PNG");
 }
-.add-pet{
-    background-image: url("../IMAGES/Projects/add-pet.PNG");
+.add-pet {
+  background-image: url("../IMAGES/Projects/add-pet.PNG");
 }
 .saved-pet {
-    background-image: url("../IMAGES/Projects/saved-pet.PNG");
+  background-image: url("../IMAGES/Projects/saved-pet.PNG");
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(26, 1fr);
+  grid-template-rows: repeat(19, 1fr);
   /* grid-auto-rows: minmax(100px, auto); */
-  grid-template-areas:
+  /* grid-template-areas:
     "header header header header header button"
     "img-1 img-1 img-1 disc-1 disc-1 disc-1"
     "img-1 img-1 img-1 . . ."
@@ -110,13 +149,28 @@ body {
     "disc-6 disc-6 disc-6 img-6 img-6 img-6"
     ". . . img-6 img-6 img-6"
     ". . . img-6 img-6 img-6"
-    "img-7 img-7 img-7 disc-7 disc-7 disc-7"
-    "img-7 img-7 img-7 . . ."
-    "img-7 img-7 img-7 . . ."
-    "disc-8 disc-8 disc-8 img-8 img-8 img-8"
-    ". . . img-8 img-8 img-8"
-    ". . . img-8 img-8 img-8"
-    "footer footer footer footer footer footer";
+    ; */
+
+  grid-template-areas:
+    "header header header header header button"
+    "img-1 img-1 img-1 disc-1 disc-1 disc-1"
+    "img-1 img-1 img-1 . . ."
+    "img-1 img-1 img-1 . . ."
+    "disc-2 disc-2 disc-2 img-2 img-2 img-2"
+    ". . . img-2 img-2 img-2"
+    ". . . img-2 img-2 img-2"
+    "img-3 img-3 img-3 disc-3 disc-3 disc-3"
+    "img-3 img-3 img-3 . . ."
+    "img-3 img-3 img-3 . . ."
+    "disc-4 disc-4 disc-4 img-4 img-4 img-4"
+    ". . . img-4 img-4 img-4"
+    ". . . img-4 img-4 img-4"
+    "img-5 img-5 img-5 disc-5 disc-5 disc-5"
+    "img-5 img-5 img-5 . . ."
+    "img-5 img-5 img-5 . . ."
+    "disc-6 disc-6 disc-6 img-6 img-6 img-6"
+    ". . . img-6 img-6 img-6"
+    ". . . img-6 img-6 img-6";
   grid-gap: 10px;
   /* background-color: rgba(33, 150, 243, 0.6); */
   padding: 10px;
@@ -128,6 +182,7 @@ body {
   text-align: center;
   padding: 20px 0;
   font-size: 1rem;
+  border: 2px solid yellow;
 }
 
 .button {
