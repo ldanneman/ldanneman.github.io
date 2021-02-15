@@ -52,7 +52,7 @@ let stickyNoteText = `
 
         </div>
         <div class="button-grid"><a class="button" href="https://sticky-note-pinboard.netlify.app/" target="_blank">Go to Site</a></div>
-        <div class="img-1 sticky-note bgi"></div>
+        <div class="img-1 sticky-notes bgi"></div>
         <div class="disc-1">
             The design of the project was inspired to look like a cork board with pinned notes. 
         </div>  
